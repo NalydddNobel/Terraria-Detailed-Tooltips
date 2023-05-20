@@ -1,0 +1,7 @@
+{
+  "ItemTooltip": {
+    "BandofRegeneration": "[c/96ffa8:Regenerate +1 HP] per second",
+    "PhilosophersStone": "[c/96ffa8:25%] reduced [c/96ffa8:healing potion cooldown]",
+    "CharmofMyths": "[c/96ffa8:Regenerate +1 HP] per second\n[c/96ffa8:25%] reduced [c/96ffa8:healing potion cooldown]"
+  }
+}

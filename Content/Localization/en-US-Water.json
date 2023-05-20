@@ -1,0 +1,10 @@
+{
+  "ItemTooltip": {
+    "DivingHelmet": "[c/96ffa8:+300% Breath] duration\n[c/96ffa8:Resist 75%] of [c/ffff22:Drowning damage]",
+    "Flipper": "Grants [c/a2badb:Infinite jumps] only when [c/ff8282:submerged in Water] or [c/ff8282:Honey]",
+    "DivingGear": "{$ItemTooltip.DivingHelmet}\n{$ItemTooltip.Flipper}",
+    "JellyfishNecklace": "Emit [c/a2badb:15% brightness] light\nEmit [c/a2badb:124% brightness] light only when [c/ff8282:submerged in Water] or [c/ff8282:Honey]",
+    "JellyfishDivingGear": "{$ItemTooltip.JellyfishNecklace}\n{$ItemTooltip.DivingGear}",
+    "ArcticDivingGear": "{$ItemTooltip.JellyfishDivingGear}\n{$ItemTooltip.IceSkates}"
+  }
+}

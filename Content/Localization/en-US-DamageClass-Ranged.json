@@ -1,0 +1,15 @@
+{
+  "ItemTooltip": {
+    "MagicQuiver": "[c/8de0d0:+10% damage] for [c/8de0d0:Arrows and Stakes]\n[c/8de0d0:+10% knockback] for [c/8de0d0:Arrows and Stakes]\n[c/8de0d0:Doubled speed] for most [c/8de0d0:Arrows]\n[c/a2badb:+20% chance] to not [c/a2badb:consume ammo]",
+    "MoltenQuiver": "{$ItemTooltip.MagicQuiver}\n[c/8de0d0:Wooden Arrows] turn into [c/8de0d0:Flaming Arrows] when fired",
+    "StalkersQuiver": "{$ItemTooltip.MagicQuiver}\n[c/a2badb:-400 enemy aggro, making enemies prioritize other players over you]",
+    "RifleScope": "[c/a2badb:'<right>'] to zoom out while holding a [c/8de0d0:Gun]",
+    "SniperScope": "{$ItemTooltip.RifleScope}\n[c/8de0d0:+10% ranged damage]\n[c/8de0d0:+10% ranged critical strike chance]",
+    "ReconScope": "{$ItemTooltip.SniperScope}\n[c/a2badb:-400 enemy aggro, making enemies prioritize other players over you]\n'Enemy spotted'",
+    "RangerEmblem": "[c/8de0d0:+15% Ranged damage]",
+
+    "JestersArrow": "Does not gain increased speed from the [c/8de0d0:Magic Quiver]",
+    "IchorArrow": "[c/8de0d0:Inflict] the [c/ffff22:{$BuffName.Ichor} debuff] for [c/8de0d0:10 seconds] on [c/8de0d0:hit], granting [c/8de0d0:+15 armor penetration] against the enemy\nDoes not gain increased speed from the [c/8de0d0:Magic Quiver]",
+    "VenomArrow": "[c/8de0d0:Inflict] the [c/ffff22:{$BuffName.Venom} debuff] for [c/8de0d0:10 seconds] on [c/8de0d0:hit], dealing [c/8de0d0:30 damage per second]\nDoes not gain increased speed from the [c/8de0d0:Magic Quiver]"
+  }
+}

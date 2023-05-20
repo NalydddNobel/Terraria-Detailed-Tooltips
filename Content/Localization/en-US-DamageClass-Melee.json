@@ -1,0 +1,39 @@
+{
+  "ItemTooltip": {
+    "FeralClaws": "[c/ffac75:+12% Melee speed]\nEnables [c/a2badb:Autoswing] for [c/ffac75:Melee weapons] and [c/8dd6d6:Whip weapons]",
+    "TitanGlove": "[c/ffac75:+10% Sword size]\n[c/ffac75:+100% Melee knockback]",
+    "PowerGlove": "{$ItemTooltip.TitanGlove}\n{$ItemTooltip.FeralClaws}",
+    "BerserkerGlove": "{$ItemTooltip.PowerGlove}\n{$ItemTooltip.FleshKnuckles}",
+    "MechanicalGlove": "[c/ffac75:+12% Melee damage]\n{$ItemTooltip.PowerGlove}",
+    "MagmaStone": "All [c/ffac75:Melee attacks] inflict the [c/ffff22:{$BuffName.OnFire3} debuff]",
+    "FireGauntlet": "{$ItemTooltip.MechanicalGlove}\n{$ItemTooltip.MagmaStone}",
+    "WarriorEmblem": "[c/ffac75:+15% Melee damage]",
+
+    "WhiteString": "[c/ffac75:+2 blocks yoyo range] bonus\n[c/ffac75:+25% yoyo range] bonus",
+    "RainbowString": "{$ItemTooltip.WhiteString}",
+    "BlackString": "{$ItemTooltip.WhiteString}",
+    "BrownString": "{$ItemTooltip.WhiteString}",
+    "PinkString": "{$ItemTooltip.WhiteString}",
+    "VioletString": "{$ItemTooltip.WhiteString}",
+    "PurpleString": "{$ItemTooltip.WhiteString}",
+    "BlueString": "{$ItemTooltip.WhiteString}",
+    "SkyBlueString": "{$ItemTooltip.WhiteString}",
+    "CyanString": "{$ItemTooltip.WhiteString}",
+    "TealString": "{$ItemTooltip.WhiteString}",
+    "GreenString": "{$ItemTooltip.WhiteString}",
+    "LimeString": "{$ItemTooltip.WhiteString}",
+    "YellowString": "{$ItemTooltip.WhiteString}",
+    "OrangeString": "{$ItemTooltip.WhiteString}",
+    "RedString": "{$ItemTooltip.WhiteString}",
+
+    "BlackCounterweight": "Release a [c/ffac75:Counterweight] on [c/ffac75:hit] for [c/ffac75:100%] of your held yoyo's damage\nWhile active, the Counterweight will orbit at [c/a2badb:8 blocks] from your position",
+    "BlueCounterweight": "{$ItemTooltip.BlackCounterweight}",
+    "GreenCounterweight": "{$ItemTooltip.BlackCounterweight}",
+    "PurpleCounterweight": "{$ItemTooltip.BlackCounterweight}",
+    "RedCounterweight": "{$ItemTooltip.BlackCounterweight}",
+    "YellowCounterweight": "{$ItemTooltip.BlackCounterweight}",
+
+    "YoYoGlove": "Release a [c/ffac75:duplicate Yoyo] on [c/ffac75:hit] for [c/ffac75:100%] of your held yoyo's damage\nThe duplicate yoyo will orbit the main yoyo while it's still in flight\nOnce your main yoyo's flight duration is over, the duplicate yoyo will become your main yoyo\nAll [c/ffac75:Counterweights] will release a [c/ffac75:duplicate counterweight]",
+    "YoyoBag": "{$ItemTooltip.WhiteString}\n{$ItemTooltip.BlackCounterweight}\n{$ItemTooltip.YoYoGlove}"
+  }
+}

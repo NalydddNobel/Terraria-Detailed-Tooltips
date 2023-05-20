@@ -1,0 +1,11 @@
+{
+  "ItemTooltip": {
+    "PanicNecklace": "Grants the [c/a2badb:{$BuffName.Panic} buff] for [c/a2badb:8 seconds] after [c/ffff22:receiving damage]\nThe {$BuffName.Panic} buff grants [c/a2badb:+100% movement speed]",
+    "HoneyComb": "Release [c/ffff22:1-3 homing, damaging bees] after [c/ffff22:receiving damage]\nThe [c/ffff22:Hive Pack] allows for [c/ffff22:1-4] bees to spawn\nGrants the [c/96ffa8:{$BuffName.Honey} buff] for [c/96ffa8:5 seconds] after [c/ffff22:receiving damage]\nThe {$BuffName.Honey} buff grants [c/96ffa8:+1 HP per second], [c/96ffa8:triples natural healing rate], and [c/96ffa8:reduces] [c/ffff22:damage over time debuffs] by [c/96ffa8:2 HP per second]",
+    "SweetheartNecklace": "{$ItemTooltip.PanicNecklace}\n{$ItemTooltip.HoneyComb}",
+    "CrossNecklace": "[c/96ffa8:Invincibilty frames] after [c/ffff22:receiving damage] are [c/96ffa8:doubled]",
+    "StarCloak": "[c/ffff22:Release damaging stars] after [c/ffff22:receiving damage]",
+    "StarVeil": "{$ItemTooltip.CrossNecklace}\n{$ItemTooltip.StarCloak}",
+    "BeeCloak": "{$ItemTooltip.StarCloak}\n{$ItemTooltip.HoneyComb}"
+  }
+}

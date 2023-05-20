@@ -1,0 +1,14 @@
+{
+  "ItemTooltip": {
+    "PygmyNecklace": "[c/8dd6d6:+1 max Minion]",
+    "HerculesBeetle": "[c/8dd6d6:+15% Summon damage]\n[c/8dd6d6:+2 Minion knockback]",
+    "NecromanticScroll": "[c/8dd6d6:+10% Summon damage]\n[c/8dd6d6:+1 max Minion]",
+    "PapyrusScarab": "[c/8dd6d6:+15% Summon damage]\n[c/8dd6d6:+1 max Minion]\n[c/8dd6d6:+2 Minion knockback]",
+    "SummonerEmblem": "[c/8dd6d6:+15% Summon damage]",
+
+    "MonkBelt": "[c/8dd6d6:+10% Summon damage]\n[c/8dd6d6:+1 max sentry]\n[c/ff8282:Equipping multiple Sentry equips from the Old Ones Army will not grant increased effects]",
+    "HuntressBuckler": "{$ItemTooltip.MonkBelt}",
+    "SquireShield": "{$ItemTooltip.MonkBelt}",
+    "ApprenticeScarf": "{$ItemTooltip.MonkBelt}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ItemTooltip": {
+    "ObsidianSkull": "[c/96ffa8:Resist] the [c/ffff22:Burning debuff]",
+    "LavaCharm": "[c/96ffa8:Resist] [c/ffff22:Lava] for [c/96ffa8:7] seconds",
+    "LavaSkull": "{$ItemTooltip.ObsidianSkull}\n{$ItemTooltip.LavaCharm}",
+    "MoltenCharm": "{$ItemTooltip.LavaCharm}\n{$ItemTooltip.ObsidianSkull}",
+    "ObsidianRose": "[c/96ffa8:Reduce] [c/ffff22:Lava damage] by [c/96ffa8:45]",
+    "ObsidianSkullRose": "{$ItemTooltip.ObsidianSkull}\n{$ItemTooltip.ObsidianRose}",
+    "MoltenSkullRose": "{$ItemTooltip.ObsidianSkull}\n{$ItemTooltip.ObsidianRose}\n{$ItemTooltip.LavaCharm}"
+  }
+}

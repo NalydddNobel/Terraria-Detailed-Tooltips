@@ -1,0 +1,41 @@
+{
+  "ItemTooltip": {
+    "LuckyHorseshoe": "[c/96ffa8:Resist] [c/ffff22:fall damage]\n[c/96ffa8:+0.05 luck]\n'Said to bring good fortune and keep evil spirits at bay'",
+    "ObsidianHorseshoe": "[c/96ffa8:Resist] [c/ffff22:fall damage]\n{$ItemTooltip.ObsidianSkull}",
+
+    "FleshKnuckles": "[c/ff8282:+400 enemy aggro, making enemies prioritize you over other players]",
+
+    "CobaltShield": "[c/a2badb:Knockback] is negated",
+    "ObsidianShield": "{$ItemTooltip.CobaltShield}\n{$ItemTooltip.ObsidianSkull}",
+    "PaladinsShield": "{$ItemTooltip.CobaltShield}\n[c/96ffa8:Protect] nearby allies, [c/96ffa8:absorbing 25%] of their [c/ffff22:incoming damage]",
+    "HeroShield": "{$ItemTooltip.PaladinsShield}\n{$ItemTooltip.FleshKnuckles}",
+    "FrozenTurtleShell": "While below [c/96ffa8:50% HP], [c/96ffa8:resist 25%] of [c/ffff22:incoming damage]",
+    "FrozenShield": "{$ItemTooltip.PaladinsShield}\n{$ItemTooltip.FrozenTurtleShell}",
+
+    "HandWarmer": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Chilled} debuff]\n[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Frozen} debuff]",
+    "ShimmerCloak": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Shimmer} debuff]\n[c/a2badb:Hold Down] to deactivate this effect",
+
+    "AdhesiveBandage": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Bleeding} debuff]",
+    "Bezoar": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Poisoned} debuff]",
+    "MedicatedBandage": "{$ItemTooltip.AdhesiveBandage}\n{$ItemTooltip.Bezoar}",
+
+    "FastClock": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Slow} debuff]",
+    "TrifoldMap": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Confused} debuff]",
+    "ThePlan": "{$ItemTooltip.FastClock}\n{$ItemTooltip.TrifoldMap}",
+
+    "Nazar": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Cursed} debuff]",
+    "Megaphone": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Silenced} debuff]",
+    "CountercurseMantra": "{$ItemTooltip.Nazar}\n{$ItemTooltip.Megaphone}",
+
+    "Vitamins": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Weak} debuff]",
+    "ArmorPolish": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.BrokenArmor} debuff]",
+    "ArmorBracing": "{$ItemTooltip.Vitamins}\n{$ItemTooltip.ArmorPolish}",
+
+    "Blindfold": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Darkness} debuff]",
+    "PocketMirror": "[c/96ffa8:Resist] the [c/ffff22:{$BuffName.Stoned} debuff]",
+    "ReflectiveShades": "{$ItemTooltip.Blindfold}\n{$ItemTooltip.PocketMirror}",
+
+    "AnkhCharm": "[c/96ffa8:Resist] [c/ffff22:{$BuffName.Bleeding}], [c/ffff22:{$BuffName.BrokenArmor}], [c/ffff22:{$BuffName.Confused}], [c/ffff22:Cursed], [c/ffff22:{$BuffName.Darkness}],\n[c/ffff22:{$BuffName.Poisoned}], [c/ffff22:{$BuffName.Silenced}], [c/ffff22:{$BuffName.Slow}], [c/ffff22:{$BuffName.Stoned}], and [c/ffff22:{$BuffName.Weak} debuffs]",
+    "AnkhShield": "[c/96ffa8:Resist] [c/ffff22:{$BuffName.Bleeding}], [c/ffff22:{$BuffName.BrokenArmor}], [c/ffff22:{$BuffName.Burning}], [c/ffff22:{$BuffName.Chilled}]\n[c/ffff22:{$BuffName.Confused}], [c/ffff22:{$BuffName.Cursed}], [c/ffff22:{$BuffName.Darkness}], [c/ffff22:{$BuffName.Poisoned}],\n[c/ffff22:{$BuffName.Silenced}], [c/ffff22:{$BuffName.Slow}], [c/ffff22:{$BuffName.Stoned}], and [c/ffff22:{$BuffName.Weak} debuffs]"
+  }
+}

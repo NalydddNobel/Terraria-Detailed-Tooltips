@@ -1,0 +1,17 @@
+{
+  "ItemTooltip": {
+    "BandofStarpower": "[c/96abff:+20 Maximum Mana]",
+    "ManaRegenerationBand": "{$ItemTooltip.BandofStarpower}\n[c/96abff:Half mana regeneration delay] after spending [c/96abff:mana]\n[c/96abff:Increased mana regeneration] the closer your [c/96abff:mana] is to full",
+    "MagicCuffs": "{$ItemTooltip.BandofStarpower}\n[c/96abff:Restore mana] equal to [c/ffff22:incoming damage] taken, without [c/a2badb:defense] applied",
+    "CelestialMagnet": "[c/96abff:+18.75 blocks mana star pickup bonus]",
+    "CelestialCuffs": "{$ItemTooltip.CelestialMagnet}\n{$ItemTooltip.MagicCuffs}",
+    "NaturesGift": "[c/96abff:-6% cost] on [c/96abff:magic spells]",
+    "ManaFlower": "[c/96abff:-8% cost] on [c/96abff:magic spells]\n[c/a2badb:Automatically] drink a [c/96abff:Mana Potion] when reaching [c/96abff:0 mana], and if available",
+    "MagnetFlower": "{$ItemTooltip.CelestialMagnet}\n{$ItemTooltip.ManaFlower}",
+    "ArcaneFlower": "{$ItemTooltip.ManaFlower}\n[c/a2badb:-400 enemy aggro, making enemies prioritize other players over you]",
+    "ManaCloak": "{$ItemTooltip.ManaFlower}\n{$ItemTooltip.StarCloak}\nOne star will become a [c/96abff:collectable], [c/96abff:restoring 50 mana]",
+
+    "SorcererEmblem": "[c/b781db:+15% Magic damage]",
+    "CelestialEmblem": "{$ItemTooltip.SorcererEmblem}\n{$ItemTooltip.CelestialMagnet}"
+  }
+}

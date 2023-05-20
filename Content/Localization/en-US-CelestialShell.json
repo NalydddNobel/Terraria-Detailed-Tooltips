@@ -1,0 +1,11 @@
+{
+  "ItemTooltip": {
+    "SunStone": "[c/ff8282:Grants the wearer the following buffs during the Day]\n{$ItemTooltip.CelestialStone}",
+    "MoonStone": "[c/ff8282:Grants the wearer the following buffs during the Night]\n{$ItemTooltip.CelestialStone}",
+    "CelestialStone": "[c/ffff22:+10% damage]\n[c/ffff22:+2% Critical Strike chance]\n[c/ffac75:+10% Melee speed]\n[c/96ffa8:Regenerate +1 HP] per second\n[c/96ffa8:+4 Defense]\n[c/a2badb:+15% Mining speed]\n[c/8dd6d6:+0.5 Minion knockback]",
+    "MoonCharm": "[c/ff8282:Turns the wearer into a Werewolf, granting the following buffs at Night]\n[c/ffac75:+5% Melee damage]\n[c/ffac75:+5% Melee speed]\n[c/ffac75:+2% Melee Critical Strike chance]\n[c/a2badb:+5% Movement speed]\nSlightly [c/a2badb:increased Jump height] and [c/a2badb:Jump speed]\n[c/96ffa8:Regenerate +0.5 HP] per second",
+    "NeptunesShell": "[c/ff8282:Turns the wearer into a Merfolk, granting the following while submerged in Water] or [c/ff8282:Honey]\n[c/ff8282:All other transformations will be disabled]\n[c/96ffa8:Infinite Breath]\n{$ItemTooltip.Flipper}\n[c/a2badb:Unrestricted movement] in [c/a2badb:Water]",
+    "MoonShell": "{$ItemTooltip.MoonCharm}\n{$ItemTooltip.NeptunesShell}",
+    "CelestialShell": "{$ItemTooltip.CelestialStone}\n{$ItemTooltip.MoonShell}"
+  }
+}
