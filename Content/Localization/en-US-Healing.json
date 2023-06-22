@@ -2,6 +2,7 @@
   "ItemTooltip": {
     "BandofRegeneration": "[c/96ffa8:Regenerate +1 HP] per second",
     "PhilosophersStone": "[c/96ffa8:25%] reduced [c/96ffa8:healing potion cooldown]",
-    "CharmofMyths": "[c/96ffa8:Regenerate +1 HP] per second\n[c/96ffa8:25%] reduced [c/96ffa8:healing potion cooldown]"
+    "CharmofMyths": "[c/96ffa8:Regenerate +1 HP] per second\n[c/96ffa8:25%] reduced [c/96ffa8:healing potion cooldown]",
+    "ShinyStone": "[c/96ffa8:Natural healing] is [c/96ffa8:10%] stronger\nLife regen reduction effects are [c/96ffa8:50%] weaker\nDamage over time effects are [c/96ffa8:50%] less effective while [c/ff8282:standing still]\nRecieve [c/96ffa8:+2.5 healing] per second while [c/ff8282:standing still]\nRecieve [c/96ffa8:+3]([c/96ffa8:+0.5] every second) [c/96ffa8:Natural healing] per second while [c/ff8282:standing still]\nAll [c/96ffa8:Natural] effects may be stronger from other factors, like [c/96ffa8:maximum life]"
   }
 }

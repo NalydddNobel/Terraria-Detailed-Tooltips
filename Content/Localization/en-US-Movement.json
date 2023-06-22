@@ -9,7 +9,7 @@
     "FrogFlipper": "{$ItemTooltip.Flipper}\n{$ItemTooltip.FrogLeg}",
     "FrogGear": "{$ItemTooltip.Flipper}\n{$ItemTooltip.FrogWebbing}\n'It ain't easy being green'",
 
-    "IceSkates": "[c/a2badb:+245% acceleration] only while on [c/ff8282:Ice surfaces]\n[c/a2badb:+25%] maximum [c/a2badb:Run speed] [c/ff8282:only while on Ice surfaces]\nPrevents [c/ffff22:Thin Ice] from breaking from falling",
+    "IceSkates": "[c/a2badb:+245% acceleration] only while on [c/ff8282:Ice surfaces]\n[c/a2badb:+25%] maximum [c/a2badb:Run speed] only while on [c/ff8282:Ice surfaces]\nPrevents [c/ffff22:Thin Ice] from breaking from falling",
     "WaterWalkingBoots": "Treat [c/ffff22:Water], [c/ffff22:Honey], and [c/ffff22:Shimmer] as [c/a2badb:solid platforms]",
     "ObsidianWaterWalkingBoots": "Treat [c/ffff22:Water], [c/ffff22:Lava], [c/ffff22:Honey], and [c/ffff22:Shimmer] as [c/a2badb:solid platforms]\n{$ItemTooltip.ObsidianSkull}",
     "LavaWaders": "{$ItemTooltip.ObsidianWaterWalkingBoots}\n{$ItemTooltip.LavaCharm}\n{$ItemTooltip.ObsidianRose}",
@@ -20,11 +20,11 @@
     "RocketBoots": "[c/a2badb:Fly] for [c/a2badb:1.16] seconds",
     "SpectreBoots": "{$ItemTooltip.RocketBoots}\n{$ItemTooltip.HermesBoots}",
     "HellfireTreads": "{$ItemTooltip.SpectreBoots}",
-    "FairyBoots": "{$ItemTooltip.SpectreBoots}\n{$ItemTooltip.FlowerBoots}",
-    "AmphibianBoots": "{$ItemTooltip.SailfishBoots}\n{$ItemTooltip.FrogLeg}",
+    "FairyBoots": "[i:405] {$ItemName.SpectreBoots} effect:\n{$ItemTooltip.SpectreBoots}\n[i:3017] {$ItemName.FlowerBoots} effect:\n{$ItemTooltip.FlowerBoots}",
+    "AmphibianBoots": "[i:3200] {$ItemName.SailfishBoots} effect:\n{$ItemTooltip.SailfishBoots}\n[i:2423] {$ItemName.FrogLeg} effect:\n{$ItemTooltip.FrogLeg}",
     "LightningBoots": "{$ItemTooltip.RocketBoots}\n[c/a2badb:Accelerate] up to [c/a2badb:34 mph]",
-    "FrostsparkBoots": "{$ItemTooltip.LightningBoots}\n{$ItemTooltip.IceSkates}",
-    "TerrasparkBoots": "{$ItemTooltip.FrostsparkBoots}\n{$ItemTooltip.LavaWaders}",
+    "FrostsparkBoots": "[i:898] {$ItemName.LightningBoots} effect:\n{$ItemTooltip.LightningBoots}\n[i:950] {$ItemName.IceSkates} effect:\n{$ItemTooltip.IceSkates}",
+    "TerrasparkBoots": "{$ItemTooltip.FrostsparkBoots}\n[i:908] {$ItemName.LavaWaders} effect:\n{$ItemTooltip.LavaWaders}",
 
     "EmpressFlightBooster": "[c/a2badb:+7.5% Movement speed]\n[c/a2badb:+75% Run acceleration]\n[c/a2badb:+4] blocks of [c/a2badb:Jump height]\n[c/a2badb:Infinite Flight time]"
   }

@@ -4,8 +4,6 @@
     "Description": "Re-writes many vanilla tooltips to be more in depth.",
     "Version": {
         "major": 1,
-        "minor": 0,
-        "build": 0,
-        "revison": 1
+        "minor": 1
     }
 } 

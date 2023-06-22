@@ -1,0 +1,18 @@
+{
+  "LegacyInterface": {
+    "10": "[c/96ffa8:Defense]"
+  },
+  "LegacyTooltip": {
+    "23": "Can be [c/a2badb:Equipped]",
+    "25": " [c/96ffa8:Defense]",
+    "26": " [c/a2badb:Mining] power",
+    "27": " [c/a2badb:Axe] power",
+    "28": " [c/a2badb:Hammer] power",
+    "33": "Can be [c/a2badb:Placed]",
+    "35": "[c/a2badb:Consumed] when used",
+    "36": "Can be used for [c/a2badb:Crafting]",
+    "54": " [c/a2badb:range]",
+    "56": "",
+    "57": ""
+  }
+}
